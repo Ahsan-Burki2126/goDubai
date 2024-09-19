@@ -52,7 +52,7 @@ const Footer = () => {
           </p>
           <a
             href="#"
-            className="text-white hover:text-btnHover transition-all duration-150 cursor-pointer mt-2 sm:mt-0"
+            className="text-white hover:text-btnHover transition-all duration-150 cursor-pointer"
           >
             Privacy Policy
           </a>
