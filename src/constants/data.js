@@ -9,7 +9,7 @@ import event2 from "../assets/event_2.jpg";
 import event4 from "../assets/event4.jpg";
 import event5 from "../assets/event5.jpg";
 import event6 from "../assets/event6.jpg";
-import event7 from "../assets/event7.jpg";
+// import event7 from "../assets/event7.jpg";
 import event8 from "../assets/event8.jpg";
 import event9 from "../assets/event9.jpg";
 import event10 from "../assets/event10.jpg";
@@ -26,11 +26,11 @@ import group9 from "../assets/group9.png";
 import group10 from "../assets/group10.jpeg";
 import group11 from "../assets/group11.jpg";
 
-import hero from "../assets/hero.png";
-import hero1 from "../assets/hero (1).png";
-import hero2 from "../assets/hero (2).png";
-import hero3 from "../assets/hero (3).png";
-import hero4 from "../assets/hero (4).png";
+import hero from "/hero.png";
+import hero1 from "/hero (1).png";
+import hero2 from "/hero (2).png";
+import hero3 from "/hero (3).png";
+import hero4 from "/hero (4).png";
 
 import hotel1 from "../assets/hotel1.jpg";
 import hotel2 from "../assets/hotel2.jpg";

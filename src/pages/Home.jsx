@@ -2,15 +2,16 @@ import React from "react";
 import { ArrowRight } from "lucide-react"; // Using an arrow icon from lucide-react
 import vip from "../assets/vip.jpg";
 import experience2 from "../assets/experience2.jpg";
-// import event8 from "../assets/event8.jpg";
-// import event7 from "../assets/event7.jpg";
+import event8 from "../assets/event8.jpg";
+import event9 from "../assets/event9.jpg";
 import InfoCard from "../components/InfoCard";
 import SectionTitle from "../components/SectionTitle";
+import EventCard from "../components/EventCard";
 const Home = () => {
   return (
     <>
       {/* Hero section with centered content */}
-      <section className="relative bg-homeHero bg-cover bg-center bg-no-repeat h-full md:h-full lg:h-screen flex flex-col items-center justify-center">
+      <section className="relative bg-homeHero bg-cover bg-center bg-no-repeat h-full md:bg-textHover xl:h-screen lg:h-screen flex flex-col items-center justify-center">
         <div className="container mx-auto  lg:mb-36 md:mb-36 text-center lg:text-start md:text-start">
           <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-8xl font-bold text-darkBlue px-5 tracking-wide">
             Elite Travel <br className="hidden sm:inline" /> Explore
@@ -69,7 +70,16 @@ const Home = () => {
           value="Events & Conventions"
           desc="Here is the calendar of important events in Dubai & Abu Dhabi. Combine business and leisure!"
         />
+        <div className="w-full flex flex-wrap justify-between items-stretch mx-auto h-auto">
+          <EventCard
+            imgSrc={event8}
+            title={"TRAVEL CONFERENCE"}
+            date={"7-8-2022"}
+          />
+          <EventCard imgSrc={event9} title={"GITEX GLOBAL"} date={"7-8-2022"} />
+        </div>
       </section>
+      {/* About Sub Section */}
     </>
   );
 };
