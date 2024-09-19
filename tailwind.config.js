@@ -20,7 +20,7 @@ export default {
         hotelHero: "url('src/assets/hero (2).png')",
         groupHero: "url('src/assets/hero (3).png')",
         packagesHero: "url('src/assets/hero (4).png')",
-        homeHero: "url('src/assets/hero2.png')",
+        homeHero: "url('/src/assets/hero2.png')",
       },
     },
   },
