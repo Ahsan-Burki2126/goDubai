@@ -13,7 +13,7 @@ const Home = () => {
     <>
       {/* Hero section with centered content */}
       <section className="relative bg-homeHero bg-cover bg-center bg-no-repeat h-full md:bg-textHover xl:h-screen lg:h-screen flex flex-col items-center justify-center">
-        <div className="container mx-auto  lg:mb-36 md:mb-36 text-center lg:text-start md:text-start">
+        <div className="container mx-auto  lg:mb-36 text-center lg:text-start md:text-center">
           <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-8xl font-bold text-darkBlue px-5 tracking-wide">
             Elite Travel <br className="hidden sm:inline" /> Explore
           </h1>

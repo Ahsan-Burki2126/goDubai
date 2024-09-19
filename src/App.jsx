@@ -10,6 +10,7 @@ import Hotels from "./pages/Hotels";
 import Events from "./pages/Events";
 import About from "./pages/About";
 import Articles from "./pages/Articles";
+import Footer from "./components/Footer";
 // import About from "./pages/About";
 // import Contact from "./pages/Contact";
 
@@ -29,6 +30,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/articles" element={<Articles />} />
       </Routes>
+      {/* footer will always show */}
+      <Footer />
     </Router>
   );
 }
