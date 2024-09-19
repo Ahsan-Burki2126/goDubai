@@ -9,11 +9,12 @@ export default {
         darkBlue: "#020a21",
         lightBlue: "#10203a",
         largeText: "#060606",
-        cardsBG: "#060606",
+        cardsBG: "#f3f8fe",
         btnBG: "#ed1b36",
         btnHover: "#ed1b36",
         textHover: "#ed1b36",
       },
+
       backgroundImage: {
         articleHero: "url('/hero.png')",
         eventHero: "url('/hero (1).png')",

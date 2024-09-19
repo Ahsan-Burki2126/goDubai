@@ -2,7 +2,7 @@ import React from "react";
 import { ArrowRight } from "lucide-react";
 const EventCard = ({ imgSrc, title, date }) => {
   return (
-    <div className="w-full md:w-[48%] p-3 flex flex-col rounded-md ">
+    <div className="w-full md:w-[48%] p-3 flex flex-col rounded-md bg-cardsBG">
       <img src={imgSrc} alt="info" className="w-full rounded-lg" />
       <h1 className="text-start font-bold text-2xl py-4 px-2 tracking-wide">
         {title}

@@ -4,6 +4,7 @@ import vip from "../assets/vip.jpg";
 import experience2 from "../assets/experience2.jpg";
 import event8 from "../assets/event8.jpg";
 import event9 from "../assets/event9.jpg";
+import about from "../assets/about.jpg";
 import InfoCard from "../components/InfoCard";
 import SectionTitle from "../components/SectionTitle";
 import EventCard from "../components/EventCard";
@@ -80,6 +81,31 @@ const Home = () => {
         </div>
       </section>
       {/* About Sub Section */}
+      <section className="h-full lg:h-screen md:h-screen xl:h-screen  px-[2%] py-[3%] lg:px-[10%] lg:py-[2%] bg-cardsBG flex justify-center items-center">
+        <div className="container flex justify-between items-center flex-wrap">
+          <div className="w-full md:w-[48%] p-3 flex flex-col rounded-md gap-6">
+            <h1 className="font-extrabold text-3xl text-center lg:text-start lg:text-5xl">
+              About us
+            </h1>
+            <p className="leading-relaxed tracking-wide text-center  text-lg lg:text-start lg:text-2xl">
+              A Canadian company led by women, specializing in the Emirates for
+              over 10 years. Our in-depth knowledge allows us to create
+              itineraries that guarantee unparalleled experiences. As a leader
+              in North America, we negotiate the best rates to offer competitive
+              travel prices.
+            </p>
+            <a
+              className="flex justify-center items-center gap-4 bg-btnBG py-3 text-xl text-white rounded-full hover:bg-darkBlue transition-all duration-200 "
+              href="#"
+            >
+              About Us <ArrowRight color="white" />
+            </a>
+          </div>
+          <div className="w-full md:w-[48%] p-3 flex flex-col rounded-md">
+            <img src={about} alt="event" className="w-full rounded-lg" />
+          </div>
+        </div>
+      </section>
     </>
   );
 };
