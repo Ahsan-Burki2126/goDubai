@@ -46,7 +46,7 @@ const Footer = () => {
           </ul>
         </div>
         <hr />
-        <div className="flex flex-col sm:flex-row justify-between items-center  h-10 px-4 py-2">
+        <div className="flex flex-col sm:flex-row justify-between items-center  h-10 px-4 py-4">
           <p className="text-white text-center sm:text-left">
             © 2024 Ahsan Burki | All Rights Reserved
           </p>
