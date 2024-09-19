@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center w-full py-5">
           <img src={logo} alt="" className="mb-4 lg:mb-0" />
 
-          <ul className="flex flex-row flex-wrap justify-around items-center gap-2 lg:gap-4 text-base lg:text-lg w-full overflow-x-auto">
+          <ul className="flex flex-row flex-wrap justify-around items-center gap-2 lg:gap-4 text-base lg:text-lg  overflow-x-auto">
             {navItems.map((item) => (
               <li
                 key={item.Id}
