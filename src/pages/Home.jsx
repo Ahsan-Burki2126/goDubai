@@ -12,8 +12,8 @@ const Home = () => {
   return (
     <>
       {/* Hero section with centered content */}
-      <section className="relative bg-homeHero bg-cover bg-center bg-no-repeat bg-fixed h-full md:bg-textHover xl:h-screen lg:h-screen flex flex-col items-center justify-center">
-        <div className="container mx-auto lg:mb-36 text-center lg:text-start md:text-center">
+      <section className="relative bg-homeHero bg-cover bg-center bg-no-repeat h-full md:bg-textHover xl:h-screen lg:h-screen flex flex-col items-center justify-center">
+        <div className="container mx-auto  lg:mb-36 text-center lg:text-start md:text-center">
           <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-8xl font-bold text-darkBlue px-5 tracking-wide">
             Elite Travel <br className="hidden sm:inline" /> Explore
           </h1>
@@ -28,25 +28,27 @@ const Home = () => {
         </div>
 
         {/* Hero Mega Links */}
-        <section className="backdrop-blur-sm w-full lg:w-full flex flex-col lg:flex-row items-center justify-center gap-6 bg-transparent lg:bg-black lg:bg-opacity-50 lg:absolute lg:bottom-0 lg:left-0 p-6 lg:p-0 lg:h-36">
-          <div className="w-full flex-1 flex justify-center bg-black lg:bg-transparent md:bg-transparent cursor-pointer bg-opacity-50 lg:w-64 py-10 rounded-lg">
+        <section className="backdrop-blur-sm w-full lg:w-full flex flex-col lg:flex-row items-center justify-center gap-6 bg-transparent lg:bg-black lg:bg-opacity-50 lg:absolute lg:bottom-0 lg:left-0 p-6 lg:p-0  lg:h-36">
+          <div className="w-full flex-1  flex justify-center bg-black lg:bg-transparent md:bg-transparent cursor-pointer bg-opacity-50 lg:w-64 py-10 rounded-lg">
             <h1 className="text-sm sm:text-base md:text-3xl lg:text-3xl font-bold text-white flex justify-center items-center gap-3">
               Our Packages <ArrowRight className="ml-2" size={24} />
             </h1>
           </div>
-          <div className="w-full flex-1 flex justify-center bg-black lg:bg-transparent md:bg-transparent cursor-pointer bg-opacity-50 lg:w-64 py-10 rounded-lg">
-            <h1 className="text-sm sm:text-base md:text-3xl lg:text-3xl font-bold text-white flex justify-center items-center gap-3">
+          <div className="w-full flex-1  flex justify-center bg-black lg:bg-transparent md:bg-transparent cursor-pointer bg-opacity-50 lg:w-64 py-10 rounded-lg">
+            <h1
+              className="text-sm sm:text-base md:text-3xl-
+             lg:text-3xl font-bold text-white flex justify-center items-center gap-3"
+            >
               Our Groups <ArrowRight className="ml-2" size={24} />
             </h1>
           </div>
-          <div className="w-full flex-1 flex justify-center bg-black lg:bg-transparent md:bg-transparent cursor-pointer bg-opacity-50 lg:w-64 py-10 rounded-lg">
-            <h1 className="text-sm sm:text-base md:text-3xl lg:text-3xl font-bold text-white flex justify-center items-center gap-3">
+          <div className="w-full flex-1  flex justify-center bg-black lg:bg-transparent md:bg-transparent cursor-pointer bg-opacity-50 lg:w-64 py-10 rounded-lg">
+            <h1 className="text-sm sm:text-base md:text-3lg lg:text-3xl font-bold text-white flex justify-center items-center gap-3">
               Our Conferences <ArrowRight className="ml-2" size={24} />
             </h1>
           </div>
         </section>
       </section>
-
       {/* experience  */}
       <section className="h-full  px-[2%] py-[3%] lg:px-[10%] lg:py-[2%] ">
         <SectionTitle value="Experience Exceptional Service With GoDubai" />
