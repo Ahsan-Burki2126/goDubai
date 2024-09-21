@@ -18,8 +18,9 @@ function App() {
   return (
     <Router>
       {/* Header will always show */}
-      <Header />
-
+      <div className="sticky top-0 left-0 w-full">
+        <Header />
+      </div>
       {/* Define routes */}
       <Routes>
         <Route path="/" element={<Home />} />
@@ -31,7 +32,7 @@ function App() {
         <Route path="/articles" element={<Articles />} />
       </Routes>
       {/* footer will always show */}
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 }

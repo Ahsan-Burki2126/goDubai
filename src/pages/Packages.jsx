@@ -1,7 +1,12 @@
 import React from "react";
+import Hero from "../components/Hero";
 
 const Packages = () => {
-  return <div>Packages</div>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
 
 export default Packages;
